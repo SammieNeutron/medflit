@@ -261,6 +261,12 @@ div#preloader {
   margin-bottom: 35px;
 }
 
+@media (max-width: 767px) {
+  .bg-btn {
+    margin-bottom: 10px;
+  }
+}
+
 /*--------------------------------------------------------------
 # Top Bar
 --------------------------------------------------------------*/
@@ -816,7 +822,7 @@ div#preloader {
 ----------------------------------------*/
 
 .wellcome-area {
-  background: rgba(248, 248, 248, 0.8) url("../img/slider/iPhone\ and\ MacBook.jpg");
+  background: rgba(39, 39, 39, 0.8) url("../img/slider/iPhone\ and\ MacBook.jpg");
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
