@@ -135,7 +135,7 @@ a:active, a:hover {
 body {
   background: #fff none repeat scroll 0 0;
   color: #444;
-  font-family: 'Open Sans', sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
   text-align: left;
   overflow-x: hidden;
@@ -383,16 +383,16 @@ div#preloader {
 }
 
 .navbar-default {
-  background: rgba(255, 255, 255, 0) none repeat scroll 0 0;
+  background: #1D4BB7 none repeat scroll 0 0;
 }
 
 .main-menu ul.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
   background: none;
-  color: #333;
+  color: #fff;
 }
 
 .navbar-default .navbar-toggle {
-  background: rgba(255, 255, 255, 0) none repeat scroll 0 0;
+  background: #1D4BB7 none repeat scroll 0 0;
   border: medium none;
   border-radius: 0;
   padding: 25px 0px;
@@ -400,7 +400,7 @@ div#preloader {
 
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
   background-color: transparent;
-  color: #1D4BB7;
+  color: #fff;
 }
 
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
@@ -408,7 +408,7 @@ div#preloader {
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: #1D4BB7;
+  background-color: #fff;
   width: 30px;
   height: 2px;
 }
@@ -427,6 +427,19 @@ div#preloader {
 
 .top-right.text-right li a {
   color: #1D4BB7;
+}
+
+.soci li a {
+  display: inline;
+}
+
+@media (min-width: 300px) and (max-width:768px) {
+  .soci li {
+    display: inline;
+  }
+  .navbar .navbar-collapse .navbar-default .navbar-header .slider-area .slides {
+    margin-top: 0px;
+  }
 }
 
 /*--------------------------------*/
@@ -857,7 +870,7 @@ div#preloader {
   /* font-family: 'Bebas Neue'; */
 }
 
-.section-headline2 h2::after {
+/* .section-headline2 h2::after {
   border: 1px solid #7c7c7c;
   background: #7c7c7c;
   bottom: -20px;
@@ -867,7 +880,7 @@ div#preloader {
   position: absolute;
   right: 0;
   width: 50%;
-}
+} */
 
 .well-text>h2 {
   color: #fff;
@@ -1491,7 +1504,9 @@ div#preloader {
 /*----------------------------------------
  12.Testimonial Area Css
 ----------------------------------------*/
-
+.testimony h5, h6 {
+  text-align: justify;
+}
 .testimonials-area {
   background: rgba(0, 0, 0, 0) url("../img/background/slider1.jpg") no-repeat fixed center top / cover;
   height: auto;

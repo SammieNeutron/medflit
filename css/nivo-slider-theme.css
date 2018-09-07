@@ -131,7 +131,14 @@ Supports Thumbs: true
 }
 
 /* Normal desktop :992px. */
-
+@media (min-width: 2000px) and (max-width:3000px) {
+  .slider-content {
+    padding: 270px 0;
+  }
+  .slider-content2 {
+    padding: 240px 0;
+  }
+}
 @media (min-width: 1400px) and (max-width:1920px) {
   .slider-content {
     padding: 270px 0;
@@ -140,10 +147,18 @@ Supports Thumbs: true
     padding: 240px 0;
   }
 }
+@media (min-width: 1200px) and (max-width:1399px) {
+  .slider-content {
+    padding: 200px 0;
+  }
+  .slider-content2 {
+    padding: 200px 0;
+  }
+}
 
 /* Normal desktop :992px. */
 
-@media (min-width: 992px) and (max-width: 1169px) {
+@media (min-width: 992px) and (max-width: 1199px) {
   .slider-content {
     padding: 144px 0;
   }

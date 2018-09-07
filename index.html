@@ -15,7 +15,7 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700|Raleway:300,400,400i,500,500i,700,800,900" rel="stylesheet">
 
   <!-- Bootstrap CSS File -->
-  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="lib/bootstrap/css/bootstrap.css" rel="stylesheet">
 
   <!-- Libraries CSS Files -->
   <link href="lib/nivo-slider/css/nivo-slider.css" rel="stylesheet">
@@ -41,67 +41,87 @@
 <body data-spy="scroll" data-target="#navbar-example">
   <div id="preloader"></div>
   
-  <header>
-      
-    <!-- header-area start -->
-    <div id="sticker" class="header-area">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 col-sm-12">
-
-            <!-- Navigation -->
-            <nav class="navbar navbar-default">
-              <!-- Brand and toggle get grouped for better mobile display -->
-              <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".bs-example-navbar-collapse-1" aria-expanded="false">
-										<span class="sr-only">Toggle navigation</span>
-										<span class="icon-bar"></span>
-										<span class="icon-bar"></span>
-										<span class="icon-bar"></span>
-									</button>
-                <!-- Brand -->
-                <a class="navbar-brand page-scroll sticky-logo" href="index.html">
-                  <!-- <h1><span>e</span>Business</h1> -->
-                  <!-- Uncomment below if you prefer to use an image logo -->
-                  <img src="img/Medflit-LogoBlue.png" alt="" title="" width="80%" height="auto">
-								</a>
-              </div>
-              <!-- Collect the nav links, forms, and other content for toggling -->
-              <div class="collapse navbar-collapse main-menu bs-example-navbar-collapse-1" id="navbar-example">
-                <ul class="nav navbar-nav navbar-right">
-                  <li>
-                    <a class="page-scroll" href="#pricing">Pricing</a>
-                  </li>
-                  <li>
-                    <a class="page-scroll" href="#benefits">Amazing Benefts</a>
-                  </li>
-                  <li>
-                    <a class="page-scroll" href="#howtouse">How To Use</a>
-                  </li>
-                  <li>
-                    <a class="page-scroll" href="#whymedflit">Why Medflit</a>
-                  </li>
-                  <li>
-                    <a class="page-scroll" href="#">Conditions</a>
-                  </li>
-                </ul>
-              </div>
-              <!-- navbar-collapse -->
-            </nav>
-            <!-- END: Navigation -->
+  <nav class="navbar navbar-default navbar-link" role="navigation">
+      <!-- <div class="container"> -->
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+              </button>
+              <div class="soci">
+              <ul class="nav navbar-nav navbar-left" style="padding-left: 20px; padding-top: 15px">
+                <li><a class="" href="https://www.facebook.com/hellomedflit/" style=""><i class="fa fa-facebook" style=""></i></a></li>
+                <li><a class="" href="https://twitter.com/medflithealth" style=""><i class="fa fa-twitter" style=""></i></a></li>
+                <li><a class="" href="https://www.linkedin.com/company/medflit-health-resources/" style=""><i class="fa fa-linkedin" style=""></i></a></li>
+                <li><a class="" href="https://www.instagram.com/medflit/" style=""><i class="fa fa-instagram" style=""></i></a></li>
+                
+              </ul>
+            </div>
           </div>
-        </div>
-      </div>
-    </div>
-    <!-- header-area end -->
-  </header>
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav navbar-right">
+                  <li><a href="#"><strong>Login</strong></a></li>
+                  <li><a href="#"><strong>Register</strong></a></li>
+                  <li><a href="https://medflit.com/">Patients &nbsp;&nbsp;&nbsp;  |</a></li>
+                  <li><a href="https://medflit.com/providers">Providers &nbsp; &nbsp; &nbsp;|</a></li>
+                  <li><a href="https://medflit.com/pharmacists">Pharmacists  &nbsp;&nbsp;&nbsp; |</a></li>
+                  <li><a href="https://medflit.com/partners">Partners</a></li>
+              </ul>
+          </div>
+          <!-- /.navbar-collapse -->
+      <!-- </div> -->
+      <!-- /.container -->
+  </nav>
+
+  <nav class="navbar" role="navigation">
+      <!-- <div class="container"> -->
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header" style="padding-left: 20px; padding-bottom: 5px">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"><p style="color: #132eb2">____</p> </span>
+              <span class="icon-bar"><p style="color: #132eb2">____</p></span>
+              <span class="icon-bar"><p style="color: #132eb2">____</p></span>
+              </button>
+              <a class="navbar-brand" href="#">
+                  <img src="img/Medflit-LogoBlue.png" alt="" width="80%" height="auto">
+              </a>
+          </div>
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse main-menu" id="bs-example-navbar-collapse-2">
+            <ul class="nav navbar-nav navbar-right">
+              <li>
+                <a class="page-scroll" href="#pricing">Pricing</a>
+              </li>
+              <li>
+                <a class="page-scroll" href="#benefits">Amazing Benefts</a>
+              </li>
+              <li>
+                <a class="page-scroll" href="#howtouse">How To Use</a>
+              </li>
+              <li>
+                <a class="page-scroll" href="#whymedflit">Why Medflit</a>
+              </li>
+              <li>
+                <a class="page-scroll" href="#">Conditions</a>
+              </li>
+            </ul>
+          </div>
+          <!-- /.navbar-collapse -->
+      <!-- </div> -->
+      <!-- /.container -->
+  </nav>
   <!-- header end -->
 
   <!-- Start Slider Area -->
   <div id="home" class="slider-area">
     <div class="bend niceties preview-2">
       <div id="ensign-nivoslider" class="slides">
-          <img src="img/slider/doctor.jpg" alt="" title="#slider-direction-1" />
+        <img src="img/slider/doctor.jpg" alt="" title="#slider-direction-1" />
         <img src="img/slider/iPhone-Calling.jpg" alt="" title="#slider-direction-2" />
         <img src="img/slider/iPhone and MacBook.jpg" alt="" title="#slider-direction-3" />
         <img src="img/slider/MHR-1.jpg" alt="" title="#slider-direction-4" />
@@ -160,7 +180,7 @@
             <div class="about-move">
               <div class="services-details">
                 <div class="text-center">
-                  <h6><strong>ONLINE CONSULTATION</strong></h6>
+                  <h6 class="text-center"><strong>ONLINE CONSULTATION</strong></h6>
                   <h2>2000 Above</h2>
                   <h6>Consult a doctor, either through
                   voice, chat or video app</h6>
@@ -182,7 +202,7 @@
             <div class="about-move">
               <div class="services-details">
                 <div class="text-center">
-                    <h6><strong>HOSPITAL BOOKING</strong></h6>
+                    <h6 class="text-center"><strong>HOSPITAL BOOKING</strong></h6>
                     <h2>Price Varies</h2>
                     <h6>Consult Doctors in a Real
                         Hospital Settings</h6>
@@ -206,7 +226,7 @@
             <div class=" about-move">
               <div class="services-details">
                 <div class="text-center">
-                    <h6><strong>HOME SERVICES</strong></h6>
+                    <h6 class="text-center"><strong>HOME SERVICES</strong></h6>
                     <h2>Price Varies</h2>
                     <h6>Have Healthcare Professionals
                         At Your Doorstep</h6>
@@ -236,7 +256,7 @@
   <div id="benefits" class="wellcome-area">
     <div class="well-bg">
       <!-- <div class="test-overly"></div> -->
-      <div class="container" style="border-bottom: 1px solid black">
+      <div class="container">
         <div class="row">
           <div class="col-md-12 col-sm-12 col-xs-12">
             <div class="wellcome-text">
@@ -246,7 +266,7 @@
             </div>
           </div>
         </div>
-        <div class="row" style="padding-bottom: 70px">
+        <div class="row" style="padding-bottom: 0px">
           <!-- Start Left Blog -->
           <div class="col-md-3 col-sm-3 col-xs-12">
             <div class="single-blog blog-container wow slideInDown">
@@ -465,23 +485,23 @@
       <div class="container ">
         <div class="row">
           <div class="col-md-4 col-sm-4 col-xs-12">
-            <div class="text-center">
+            <div class="">
               <h6> <strong> At first, I was reluctant to actually try the Medflit app. I am glad I overcame my initial reluctance. This is one of the best things to happen to my healthcare! </strong> </h6>
-              <h5 class="pull-right"><strong> Bisi Alimi,<br>Lagos</strong></h5>
+              <h5 class="text-center"><strong> Bisi Alimi,<br>Lagos</strong></h5>
             </div>
           </div>
           <div class="col-md-4 col-sm-4 col-xs-12">
-              <div class="text-center">
+              <div class="">
                 <h6><strong><strong>I am glad I do not have to queue at general hospitals any longer or pay exorbitant rates for a consultation.</strong></h6>
-                <h5 class="pull-right"><strong>Segun Green,<br>Lagos</strong></h5>
+                <h5 class="text-center"><strong>Segun Green,<br>Lagos</strong></h5>
               </div>
             </div>
             <div class="col-md-4 col-sm-4 col-xs-12">
-                <div class="text-center">
-                  <h6><strong>The feature I love the most in Medflit is how it enables me transfer my prescription effortlessly to pharmacies and have the drugs delivered to me.</strong></h6>
-                  <h5 class="pull-right"><strong>Hafsat Haruna,<br>Abuja</strong></h5>
-                </div>
+              <div class="">
+                <h6><strong>The feature I love the most in Medflit is how it enables me transfer my prescription effortlessly to pharmacies and have the drugs delivered to me.</strong></h6>
+                <h5 class="text-center"><strong>Hafsat Haruna,<br>Abuja</strong></h5>
               </div>
+            </div>
         </div>
       </div>
     </div>
