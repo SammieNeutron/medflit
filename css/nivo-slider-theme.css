@@ -16,7 +16,7 @@ Supports Thumbs: true
 }
 
 .nivo-caption::after {
-  background: rgb(214, 212, 212) none repeat scroll 0 0;
+  /* background: rgb(214, 212, 212) none repeat scroll 0 0; */
   content: "";
   height: 100%;
   left: 0;
