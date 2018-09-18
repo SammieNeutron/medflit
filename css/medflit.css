@@ -219,3 +219,13 @@ max-width: 100%;
         height: 300px;
     }
 }
+
+.medical-conditions {
+    padding-top: 25px;
+    padding-left: 20px;
+    height: 40em;
+}
+
+.medical-conditions li {
+    color: #5D67F3;
+}

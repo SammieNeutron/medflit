@@ -13,6 +13,7 @@ Supports Thumbs: true
   color: #fff;
   position: relative;
   text-align: center;
+  margin-top: 0px;
 }
 
 .nivo-caption::after {
@@ -249,7 +250,7 @@ Supports Thumbs: true
   .slider-content3 {
     padding: 30px 0;
   }
-  .layer-1-1 h2, .layer-1-2 h1 {
+  .layer-1-1 h1, .layer-1-2 h1 {
     font-size: 24px;
     line-height: 30px;
   }
